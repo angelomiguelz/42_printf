@@ -6,7 +6,7 @@
 /*   By: mzarichn <mzarichn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 09:37:52 by mzarichn          #+#    #+#             */
-/*   Updated: 2022/11/17 12:46:46 by mzarichn         ###   ########.fr       */
+/*   Updated: 2022/11/23 11:52:36 by mzarichn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,17 +31,4 @@ int	ft_varf(va_list args, const char varf)
 	else if (varf == '%')
 		return (ft_putchar('%'));
 	return (0);
-}
-
-
-int	put_nbr_base(unsigned long long i, char *base, size_t baselen)
-{
-	int count;
-
-	count = 0;
-	if (i >= baselen)
-	{
-		
-	}
-	
 }
